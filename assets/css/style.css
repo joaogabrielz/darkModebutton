@@ -69,3 +69,17 @@ button.dark-mode:hover {
 	background-color: #4e545c;
 	color: #e5e8e8;
 }
+
+@media screen and (max-width: 700px){
+	body{
+	background-repeat: repeat;
+	background-position: center;
+
+	}
+	
+	body.dark-mode {
+	
+		background-repeat: repeat;
+		background-position: center;
+	}
+}
